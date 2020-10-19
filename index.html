@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Потомственная предсказательница Бабушка Раиса</title>
+</head>
+
+<body>
+  <!-- всплывающее меню -->
+  <input type="checkbox" id="nav-toggle" hidden>
+  <nav class="nav">
+    <label for="nav-toggle" class="nav-toggle" onclick></label>
+    <div class="menu-list">
+      <div class="menu-items">
+        <a href="#preview" class="menu-item">Обо мне</a>
+        <a href="#service" class="menu-item">Услуги</a>
+        <a href="#feedback" class="menu-item">Отзывы</a>
+        <a href="#contacts" class="menu-item">Контакты</a></div>
+    </div>
+  </nav>
+  <!-- Шапка страницы -->
+  <header class="header">
+    <nav class="header-nav">
+      <a href="#preview" class="nav-link">Обо мне</a>
+      <a href="#service" class="nav-link">Услуги</a>
+      <a href="#feedback" class="nav-link">Отзывы</a>
+      <a href="#contacts" class="nav-link">Контакты</a>
+    </nav>
+
+    <!-- /.header-nav -->
+    <div class="phone-numbers">
+      <div class="phone-link phone-link-1">
+        <img src="img/phone-image.png" alt="phone-image" class="phone-image-1">
+        <a href="tel: +79302830773" class="phone">+7 (930) 283-07-73</a>
+      </div>
+      <div class="phone-link phone-link-2">
+        <img src="img/phone-image.png" alt="phone-image" class="phone-image-2">
+        <a href="tel: +78312693946" class="phone">+7 (831) 269-39-46</a>
+      </div>
+    </div>
+    <!-- /.phone-number -->
+    <div class="address">
+      <img src="img/location.png" alt="location" class="location">
+      <a href="#" class="address-link">г. Нижний Новгород,
+        поселок Строгино,
+        ул. Мелиоративная д. 25</a>
+    </div>
+  </header>
+  <section class="first-section">
+    <div class="background">
+      <div class="container">
+        <div class="main">
+          <h2 class="subtitle">Потомственная предсказательница</h2>
+          <h1 class="title">Бабушка Раиса</h1>
+          <p class="description">Гадание, обряды, предсказания</p>
+          <button class="button" data-fancybox data-src="#inline" href="javascript:;"
+            data-options='{ "smallBtn" : false}'>Обратиться</button>
+        </div>
+        <!-- обратная связь -->
+        <div id="inline" style="display:none;">
+          <a href="#" class="exit-link" data-fancybox-close>
+            <img src="img/exit.png" alt="" class="exit">
+          </a>
+          <h2 class="form-title">Обратный звонок</h2>
+          <p class="form-description">Если вы хотите связаться с бабушкой Раисой, оставьте заявку и она вам позвонит</p>
+          <form id="contact" action="#" method="post" name="contact">
+            <p class="form-text">ФИО</p>
+            <input id="name" class="txt" name="name" type="name" placeholder="Фамилия, Имя, Отчество">
+            <p class="form-text">Номер телефона</p>
+            <input id="phone" class="txt" name="phone" type="phone" placeholder="+7 (800) 800-80-80">
+            <p class="form-text">Сообщение</p>
+            <textarea id="msg" class="txtarea" name="msg" placeholder="Текст сообщения"></textarea>
+            <button id="send">Заказать звонок</button>
+          </form>
+        </div>
+        <!-- /.main -->
+      </div>
+      <!-- /.container -->
+    </div>
+  </section>
+  <!-- /.first-section -->
+  <!-- описание -->
+  <section class="second-section" id="preview">
+    <div class="container">
+      <div class="small-subtitle">
+        <h2 class="subtitle">Гадалка из Нижнего Новгорода</h2>
+        <img src="img/Candles.svg" alt="Candles" class="candles">
+      </div>
+      <div class="information">
+        <div class="text-information">
+          <div class="information-subtitle second-subtitle">
+            <h2 class="subtitle">Гадалка из Нижнего Новгорода</h2>
+            <img src="img/Candles.svg" alt="Candles" class="candles">
+          </div>
+          <p class="second-description">Меня зовут – бабушка Раиса, я гадалка из Нижнего Новгорода. Как правило мужчин и
+            женщин
+            интересует любовный обряд, где
+            я, как потомственная ворожея, смогу вернуть любимого в семью приворотом. Обладая даром ясновидения, я скажу,
+            смогу ли
+            помочь вашей карьере, здоровью, семейным отношениям. Если у Вас появилась проблема, знайте, я всегда готова
+            Вам помочь!</p>
+        </div>
+        <div class="main-image">
+          <img src="img/main-image.png" alt="main-image" class="main-img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- услуги -->
+  <section class="third-section" id="service">
+    <div class="service-background">
+      <div class="container">
+        <div class="second-subtitle third-subtitle">
+          <h2 class="subtitle">Услуги</h2>
+          <img src="img/Candles.svg" alt="Candles" class="candles">
+        </div>
+        <div class="service">
+          <div class="service-item">
+            <img src="img/service-image1.png" alt="" class="service-image">
+            <h3 class="service-title">Возвращение любви и верности</h3>
+            <p class="service-text">Восстановление любовных и семейных отношений.
+              Усиление чувств и тяги к вам вашего любимого человека.</p>
+          </div>
+          <div class="service-item">
+            <img src="img/service-image2.png" alt="" class="service-image">
+            <h3 class="service-title">Обряд на равнодушие и отвращение к любовнице</h3>
+            <p class="service-text">Любовный отворот. Заговор на разлуку. Если вас раздражает и недаёт спокойно жить
+              соперница (соперник), ритуал "Тефер"
+              поможет вам убрать с вашей дороги этого человека. Отвернуть мысли, привязанность, непонятную тягу вашего
+              любимого
+              человека к сопернице (сопернику).</p>
+          </div>
+          <div class="service-item">
+            <img src="img/service-image3.png" alt="" class="service-image">
+            <h3 class="service-title">Гадание на змеиной коже</h3>
+            <p class="service-text">Этот приворот считается одним из сильных и верных средств приворота
+              возлюбленной(-го).
+              Древние магические книги
+              утверждают, что это средство подходит как для мужчин, так и для женщин. Проводить данный ритуал могут
+              только
+              знающие
+              маги.</p>
+          </div>
+          <div class="service-item">
+            <img src="img/service-image4.png" alt="" class="service-image">
+            <h3 class="service-title">Предотвращение несчастья</h3>
+            <p class="service-text">Что только нашей удаче не препятствует. И зависть, и оговоры, и сплетни, да даже
+              слово доброе, но не к месту, не ко времени сказанное, может все дело порушить. Небось, вам такие случаи
+              известны. Данный обряд уберегает от
+              данных обстоятельств и установливет заслоны вашего счастья и удачи.</p>
+          </div>
+        </div>
+      </div>
+      <!-- <img src="/img/Vector 3.png" alt="" class="vector-3"> -->
+    </div>
+  </section>
+  <!-- отзывы -->
+  <section class="fourth-section" id="feedback">
+    <div class="container">
+      <div class="feedback-section">
+        <div class="second-subtitle third-subtitle">
+          <h2 class="subtitle">Отзывы</h2>
+          <img src="img/Candles.svg" alt="Candles" class="candles">
+        </div>
+        <div class="feedback">
+          <div class="feedback-item">
+            <img src="img/man.png" alt="" class="man">
+            <h3 class="feedback-title">Сергей</h3>
+            <p class="feedback-text">В положительный отзывы гадалок я не верил. По просьбе подруги позвонил. И Раиса
+              погадала мне по телефону. Сначала я
+              отнесся ко всему скептически, но потом начали сбываться предсказания. Теперь мое отношение к
+              предсказателям поменялось.</p>
+          </div>
+          <div class="feedback-item">
+            <img src="img/woman.png" alt="" class="woman">
+            <h3 class="feedback-title">Валентина</h3>
+            <p class="feedback-text">Причиной моей проблемы стало выгорание. Коллега уволилась с работы, которая
+              работала машинисткой. У меня появилась
+              дополнительная нагрузка. Также страдала от издевательств коллег. Появилась мигрень и я стала
+              раздражительной. Пришлось с
+              работы уйти. Благодаря гадалке в Нижнем Новгороде у меня восстановилось равновесие. Нашла новую работу.
+              Теперь при
+              первой возможности захожу к бабушке Раисе попить чаю и поболтать.
+            </p>
+          </div>
+          <div class="feedback-item">
+            <img src="img/woman.png" alt="" class="woman">
+            <h3 class="feedback-title">Мария</h3>
+            <p class="feedback-text">Мой отзыв о гадалке из Нижнего Новгорода положительный. Рекомендую ее всем
+              желающим. Помогла наладить отношения с мужем.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- контакты  -->
+  <section class="furth-section" id="contacts">
+    <div class="container">
+      <div class="contacts">
+        <div class="second-subtitle third-subtitle" style="padding: 0;">
+          <h2 class="subtitle">Контакты</h2>
+          <img src="img/Candles.svg" alt="Candles" class="candles">
+        </div>
+        <div class="social-link">
+          <div class="phone-numbers phone-numbers-footer">
+            <div class="phone-link phone-link-footer">
+              <img src="img/phone-image.png" alt="phone-image" class="phone-image">
+              <a href="tel: +79302830773" class="phone">+7 (930) 283-07-73</a>
+            </div>
+            <div class="phone-link phone-link-footer">
+              <img src="img/phone-image.png" alt="phone-image" class="phone-image">
+              <a href="tel: +78312693946" class="phone">+7 (831) 269-39-46</a>
+            </div>
+          </div>
+          <!-- /.phone-numbers -->
+          <div class="mail mail-footer">
+            <img src="img/mail.svg" alt="mail">
+            <span class="mail-address">babushcka.raisa@yandex.ru</span>
+          </div>
+          <div class="address-contacts address-contacts-footer">
+            <img src="img/location.png" alt="location" class="location">
+            <a href="#" class="address-link-contacts">г. Нижний Новгород,
+              поселок Строгино,
+              ул. Мелиоративная д. 25</a>
+          </div>
+        </div>
+        <!-- social-link -->
+        <div id="yandexmap" style="width: 100%; height: 327px"></div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-background">
+      <div class="container">
+        <div class="footer-info">
+          <p class="footer-text text-1">Помогу каждому, кто верит в мои силы и Божью помощь!</p>
+          <p class="footer-text text-2">Более 700 обрядов для мужчин и женщин от бабушки Раисы</p>
+          <p class="footer-text text-3">Без греха и негативных последствий</p>
+          <button class="footer-button" data-fancybox data-src="#inline" href="javascript:;"
+            data-options='{ "smallBtn" : false}'>Обратиться</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
